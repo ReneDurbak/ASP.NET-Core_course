@@ -19,7 +19,6 @@ PUT http://localhost:5079/games/1
 Content-Type: application/json
 
 {
-    "id": 1,
     "name": "GTA 4",
     "genre": "Action",
     "price": 25.5,
