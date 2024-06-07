@@ -13,3 +13,15 @@ Content-Type: application/json
     "price": 19.99,
     "releaseDate": "2011-11-18"
 }
+
+###
+PUT http://localhost:5079/games/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "GTA 4",
+    "genre": "Action",
+    "price": 25.5,
+    "releaseDate": "2013-07-15"
+}
