@@ -3,6 +3,8 @@ using GameStore.Api.Dtos;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+const string GetGameEndpointName = "GetGame";
+
 List<GameDto> games = [
   new (
     1,
@@ -24,6 +26,13 @@ List<GameDto> games = [
     new DateOnly(1992,7,15)),
 ];
 
+
+// GET /games
+app.MapGet("games", () => games);
+
+// GET /games/1
+app.MapGet("games/{id}", (int id) => games.Find(game => game.Id == id))
+    .WithName(GetGameEndpointName);
 
 
 
