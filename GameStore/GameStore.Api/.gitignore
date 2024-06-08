@@ -1,0 +1,124 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2019
+.vs/
+.vscode/
+
+# Roslyn cache directories
+.vscode/
+.vscode-server/
+.vscode-test/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# IDEs
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+
+# Node modules
+node_modules/
+
+# macOS
+.DS_Store
+
+# Packages
+*.nupkg
+*.snupkg
+
+# Ensure that the PublishProfiles folder exists, but ignore the published Web app's destination files
+publish/
+PublishProfiles/
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# Local History for Visual Studio Code
+.history/
+
+# Rider
+.idea/
+*.sln.iml
+*.tmp
+*.temp
+*.cache
+*.indices
+*.gradle
+
+# Rider Patch
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+
+# Backup & report files from converting an old project file to a newer format
+Backup*/
+UpgradeLog*.xml
+UpgradeLog*.htm
+
+# Lightweight solution load
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Microsoft Azure Web App publish settings. To customize your solution for one or more specific deployment environments, see https://go.microsoft.com/fwlink/?LinkID=282881
+# PublishProfiles/
