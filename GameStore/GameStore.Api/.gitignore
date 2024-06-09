@@ -122,3 +122,5 @@ packages/
 
 # Microsoft Azure Web App publish settings. To customize your solution for one or more specific deployment environments, see https://go.microsoft.com/fwlink/?LinkID=282881
 # PublishProfiles/
+
+*.db
