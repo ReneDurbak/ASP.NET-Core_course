@@ -39,7 +39,7 @@ public static class GameMapping
         return new(
             game.Id,
             game.Name,
-            game.GenreId , // !(null forgiving operator) - Genre is never going to be null
+            game.GenreId ,
             game.Price,
             game.ReleaseDate
         );
