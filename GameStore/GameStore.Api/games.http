@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
     "name": "GTA 4",
-    "genre": "Action",
+    "genreId": 1,
     "price": 25.5,
     "releaseDate": "2013-07-15"
 }
