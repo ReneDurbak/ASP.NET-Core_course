@@ -14,7 +14,17 @@ public static class GameMapping
             };
     }
 
-    public static GameDto ToDto(this Game game){
+    public static Game ToEntity(this UpdateGameDto game, int id){
+         return new Game(){
+                Id = id,
+                Name = game.Name,
+                GenreId = game.GenreId,
+                Price = game.Price,
+                ReleaseDate = game.ReleaseDate
+            };
+    }
+
+    public static GameSummaryDto ToGameSummaryDto(this Game game){
         return new(
             game.Id,
             game.Name,
@@ -22,6 +32,16 @@ public static class GameMapping
             game.Price,
             game.ReleaseDate
         );
+    }
 
+
+        public static GameDetailsDto ToGameDetailsDto(this Game game){
+        return new(
+            game.Id,
+            game.Name,
+            game.GenreId , // !(null forgiving operator) - Genre is never going to be null
+            game.Price,
+            game.ReleaseDate
+        );
     }
 }
